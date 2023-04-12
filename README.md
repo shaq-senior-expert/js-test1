@@ -19,4 +19,13 @@ Then it constructs the API URL with the calculated dates and makes an API call u
 If the API call is successful, the function loops through the data to create a table with the temperature details and displays it on the page in the `table-container` div. 
 If the API call fails, an error message is displayed instead.
 
+Determine the current month and year using the Date object.
+Loop through all the weeks of the month and add them as options to the dropdown.
+
+When the "Start Tracking" button is clicked, use JavaScript to send an API call to retrieve weather data for the selected week:
+Determine the start and end dates for the selected week.
+Construct the API URL using the start and end dates.
+Send an HTTP GET request to the API using the fetch function.
+Parse the JSON response and display the temperature data in a table.
+If there's an error in the API, display a custom error message instead of the table.
 
