@@ -22,10 +22,10 @@ If the API call fails, an error message is displayed instead.
 Determine the current month and year using the Date object.
 Loop through all the weeks of the month and add them as options to the dropdown.
 
-When the "Start Tracking" button is clicked, use JavaScript to send an API call to retrieve weather data for the selected week:
---- Determine the start and end dates for the selected week.
---- Construct the API URL using the start and end dates.
---- Send an HTTP GET request to the API using the fetch function.
---- Parse the JSON response and display the temperature data in a table.
---- If there's an error in the API, display a custom error message instead of the table.
+When the "Start Tracking" button is clicked, use JavaScript to send an API call to retrieve weather data for the selected week:<br>
+ Determine the start and end dates for the selected week.<br>
+ Construct the API URL using the start and end dates.<br>
+ Send an HTTP GET request to the API using the fetch function.<br>
+ Parse the JSON response and display the temperature data in a table.<br>
+ If there's an error in the API, display a custom error message instead of the table.<br>
 
